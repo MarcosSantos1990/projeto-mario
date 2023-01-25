@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 500px) {
-  .cabecalho{
+  .cabecalho {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;

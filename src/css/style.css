@@ -106,6 +106,7 @@ body {
   top: 0;
   left: 0;
   background-color: rgba(52, 52, 50, 0.749);
+  opacity: 0;
   visibility: hidden;
 }
 .conteudo-modal {
