@@ -62,7 +62,6 @@ body {
   border: none;
   text-transform: uppercase;
   transition: 0.5s all ease-in-out;
-  border-radius: 50%;
 }
 
 .container .botao-trailer:hover {
