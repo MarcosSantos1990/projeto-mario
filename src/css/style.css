@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .cabecalho {
   display: flex;
@@ -7,7 +7,6 @@ body {
   padding: 30px;
   max-width: 1440px;
   margin: 0 auto;
-
 }
 
 .cabecalho .logo {
@@ -34,12 +33,12 @@ body {
 }
 
 .container {
-max-width: 1440px;
-margin: 0 auto;
-display: flex;
-align-items: center;
-height: calc(100vh - 132px);
-padding: 0 30px 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 132px);
+  padding: 0 30px 30px;
 }
 
 .container .imagem-titulo {
@@ -54,7 +53,7 @@ padding: 0 30px 30px;
 }
 
 .container .botao-trailer {
-  background-color: #ff0021;
+  background-color: #d5011d;
   color: #ffffff;
   padding: 15px;
   font-size: 18px;
@@ -62,7 +61,8 @@ padding: 0 30px 30px;
   cursor: pointer;
   border: none;
   text-transform: uppercase;
-  transition: 0.5s all  ease-in-out;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
 }
 
 .container .botao-trailer:hover {
@@ -81,6 +81,7 @@ padding: 0 30px 30px;
 }
 .fundo-video .video {
   height: 100vh;
+  width: 100vw;
 }
 
 .fundo-video::after {
@@ -92,8 +93,12 @@ padding: 0 30px 30px;
   top: 0;
   left: 0;
 
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
-
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 .modal {
   position: fixed;
@@ -102,7 +107,6 @@ padding: 0 30px 30px;
   top: 0;
   left: 0;
   background-color: rgba(52, 52, 50, 0.749);
-  opacity: 0;
   visibility: hidden;
 }
 .conteudo-modal {
@@ -111,6 +115,7 @@ padding: 0 30px 30px;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  width: 100vw;
   border-radius: 5px;
   gap: 15px;
 }
@@ -123,7 +128,6 @@ padding: 0 30px 30px;
   text-align: center;
   cursor: pointer;
   border-radius: 10px;
-
 }
 
 .modal iframe {
