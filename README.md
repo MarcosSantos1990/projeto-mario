@@ -37,9 +37,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT.
-
----
 
