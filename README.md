@@ -10,12 +10,6 @@
   <a href="#-como-executar">Como Executar</a>
 </p>
 
-<br>
-
-<p align="center">
-  <img alt="Preview do Projeto Mario" src=".github/preview.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -24,6 +18,12 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **CSS3**
 - **JavaScript**
 - **Git & GitHub**
+
+<br>
+
+<p align="center">
+  <img alt="Preview do Projeto Mario" src=".github/preview.png" width="100%">
+</p>
 
 ## 💻 Projeto
 
